@@ -11,3 +11,9 @@ Webcam.js (Capturing live video feed)
 TensorFlow.js (Machine learning in the browser)
 COCO-SSD (Pre-trained object detection model)
 Tailwind CSS (For styling)
+
+How It Works
+The application loads the COCO-SSD model from TensorFlow.js.
+Once the model is loaded, it processes frames from the webcam feed.
+Objects detected in the frame are displayed in real time.
+The UI dynamically updates as new objects are recognized.
